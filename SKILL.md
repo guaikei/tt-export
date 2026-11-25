@@ -6,6 +6,11 @@ name: tt-export
 description: "TikTok公开数据结构化导出（只读）：关键词搜视频、博主作品、视频评论，输出 JSON，不登录不发布。触发词：TikTok、tiktok、抖音国际版、TikTok搜索、TikTok评论、TikTok博主。用户要查 TikTok 视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、快手、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.3
+display_name: "TikTok结构化导出｜视频CSV·评论表格·批量Excel"
+display_name_en: "TikTok Export"
+description_zh: "TikTok 公开数据只读导出技能：关键词搜视频（相关度/最多点赞排序，1/7/30/90/180 天时间窗）、博主主页作品（最新/最热）、单条视频评论与互动数据，全部以结构化 JSON 输出，可直接整理成 CSV / Excel 表格与 BI 报表。出参覆盖作者、点赞/评论/收藏/分享、标签、链接、音乐、话题。包月搜索与作品各 30 条、评论 40 条，按量单次最多 10000 条。只读公开数据，不登录账号、不发布内容，无封号风险；零第三方依赖（Node.js 16.14+），stdout 纯 JSON、日志走 stderr，支持 --save 落盘做周报与选题库。需配置 GUAIKEI_API_TOKEN。"
+description_en: "Read-only TikTok data export skill that turns public TikTok data into structured JSON ready for Excel / BI reports and CSV hand-off. Keyword search for videos with relevance or most-liked sorting and 1/7/30/90/180 day time windows, creator profile posts (newest or hottest), and video comments with engagement stats. Output covers author, likes, comments, collects, shares, tags, links, music and topics. Monthly plan allows 30 searches or post pulls and 40 comment pulls; pay-as-you-go up to 10,000 records per call. Public data only: no login, no posting, no account risk. Zero third-party dependencies (Node.js 16.14+), pure JSON on stdout, logs on stderr, optional --save for local analysis. Requires GUAIKEI_API_TOKEN."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎵"
